@@ -1,9 +1,6 @@
-sukurti readme file'ą su aprašymu kur bus (about, functionalities, launch su link'u į github pages
-# Figma
+# About
 This project goal is create a webpage using Figma Design.
 
-## Functionalities
- - 
 
 
 ## Launch procedure
