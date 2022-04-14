@@ -1,26 +1,102 @@
-
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-   /*padding-top: 20px;*/
+.column {
+  padding: 22px 96px;
+  width: 323px;
+  height: 103px;
+  float: left;
+  margin: 0 200px 0 200px ;
 }
 
-.text {
-    position: absolute;
-    margin-left: 200px;
+.container {
+  background-color: white;
+  padding: 22px 96px;
+  width: 323px;
+  height: 103px;
+  border-radius: 25px;
+  margin-left: 900px;
+  margin-bottom: 23px;
 }
 
-.date {
-    position: absolute;
-    text-align: right;
+main {
+  padding-top: 56px;
+} 
+
+h2 {
+  font-size: 36px;
+  color: var(--secondary-color);
+  width: 323px;
+  margin: 0px;
 }
 
-.image img {
-    width: 100%;
-    margin-top: 226px;
-    margin-left: 100px;
+h3 {
+  font-size: 24px;
+  width: 323px;
+  line-height: 29px;
+}
+
+.image-class {
+  background: linear-gradient(0deg, rgba(237, 236, 243, 0.46), rgba(237, 236, 243, 0.46)), url("../assets/workplace.png");
+  height: 431px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.citate {
+  padding: 49px 0;
+  width: 70%;
+  max-width: 898px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 25px;
+  text-align: center;
+  margin: 43px auto;
+}
+
+section {
+  font-weight: 500;
+}
+
+section:first-child {
+  margin-left: 100px;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  main {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 125px;
+    width: auto;
+  }
+
+  .column {
+    margin: 0px 30px;
+  }
+
+  .container {
+    margin-left: 400px;
+    padding: 22px 66px;
+  }
+
+  h3 {
+   margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .citate {
+    padding: 40px 64px;
+    max-width: 433px;
+    width: auto;
+    margin-left: 106px;
+  }
+
+  footer {
+    left: calc(50% + 50px);
+  }
+
+  .image-class{
+    height: 476px;
+  }
 }
